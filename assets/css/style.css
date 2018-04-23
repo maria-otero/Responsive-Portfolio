@@ -121,6 +121,7 @@ h3, h2 {
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
+  margin-bottom: 400px;
 }
 
 .main-section {
@@ -213,76 +214,4 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
-}
-
-
-/* Width at 980px desktop*/
-@media screen and (max-width: 980px) {
-body {
-  font-size: 16px;
-  line-height: 30px;
-}
-
-.container {
-  width: 90%;
-  margin-left: 50px;
-  clear: both;
-}
-
-
-h1 {
-  padding-bottom: 18px;
-  font-size: 28px;
-  line-height: 37px;
-  border-bottom: 2px solid #ddd;
-}
-
-h2,
-h3 {
-  font-size: 20px;
-}
-
-/* header */
-#masthead {
-  height: 75px;
-}
-
-#logo {
-  width: 248px;
-  height: 75px;
-  font-size: 28px;
-  line-height: 70px;
-  color: #fff;
-}
-
-nav a {
-  line-height: 16px;
-}
-
-  footer {
-    padding: 28px 0;
-    font-size: 11px;
-    border-top: 7px solid #4aaaa5;
-    height: 48px;
-  }
-  
-  h3, h2 {
-    padding-bottom: 18px;
-    margin-bottom: 13px;
-    line-height: 20px;
-    border-bottom: 1px solid #eee;
-  }
-  
-  /* main */
-  
-  #main-container {
-    width: 62%;
-  }
-  
-
-/* Width at 768px ipad */
-@media screen and (max-width: 768px) {
-}
-/* Width at 640px phone */
-@media screen and (max-width: 640px) {
 }
