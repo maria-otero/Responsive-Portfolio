@@ -236,6 +236,7 @@ input[type=submit] {
     line-height: 46px;
   }
   
+  
   /* header */
   #logo {
     height: 80px;
@@ -268,6 +269,14 @@ input[type=submit] {
     border-bottom: 2px solid #ddd;
   }
 
+  h3, h2 {
+    font-size: 20px;
+    padding-bottom: 18px;
+    margin-bottom: 12px;
+    line-height: 20px;
+    border-bottom: 2px solid #eee;
+  }
+
   /* header */
   #logo {
     width: 230px;
@@ -294,7 +303,9 @@ input[type=submit] {
     border-top: 7px solid #4aaaa5;
     height: 40px;
   }
-}
+
+
+
 
 
 
@@ -316,6 +327,15 @@ input[type=submit] {
     line-height: 28px;
     border-bottom: 2px solid #ddd;
   }
+
+  h3, h2 {
+    font-size: 18px;
+    padding-bottom: 16px;
+    margin-bottom: 10px;
+    line-height: 18px;
+    border-bottom: 1px solid #eee;
+  }
+
 
   /* header */
   #masthead {
@@ -359,7 +379,6 @@ input[type=submit] {
     border-left: 1px solid #efefef;
   }
 
-
   .auth-image {
     float: none;
     width: 100%;
@@ -377,14 +396,6 @@ input[type=submit] {
     border-top: 5px solid #4aaaa5;
     height: 38px;
   }
-
-  h3, h2 {
-    padding-bottom: 18px;
-    margin-bottom: 12px;
-    line-height: 18px;
-    border-bottom: 1px solid #eee;
-  }
-
   
   
   /* main */
@@ -394,11 +405,31 @@ input[type=submit] {
     margin-top: 8px;
     margin-left: auto;
     margin-right: auto;
+    overflow: auto;
 
   }
 
- .float {
-   float: left;
- }
+
+ /* portfolio page */
+ /* .float {
+   height: 2200px;
+  
+ } */
+
+.work {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work img {
+  width: 100%;
+}
+
+.work h3 {
+  line-height: 25px;
+  }
 
 }
