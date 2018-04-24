@@ -316,11 +316,6 @@ input[type=submit] {
     line-height: 28px;
     border-bottom: 2px solid #ddd;
   }
-  
-.containerNav {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
 
   /* header */
   #masthead {
@@ -393,15 +388,9 @@ input[type=submit] {
   
   
   /* main */
-  
-  /* #main-container {
-    padding-top: 130px;
-    min-height: calc(100vh - 70px);
-    margin-bottom: 400px;
-  } */
-  
   .main-section {
     width: 100%;
+    margin-top:20px;
     /* margin-left: 30px;
     margin-right: 30px; */
 
