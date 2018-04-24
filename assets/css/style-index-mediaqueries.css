@@ -25,7 +25,7 @@
   
   /* main */
   .main-section {
-    width: 70%;
+    width: 80%;
     margin: 0 0 250px;
   }
 }
@@ -34,11 +34,48 @@
 
 /* Width at 768px ipad */
 @media screen and (max-width: 768px) {
-
-
-
-
+  body {
+    font-size: 16px;
+    line-height: 32px;
+  }
   
+  /* general */
+  h1 {
+    padding-bottom: 18px;
+    font-size: 26px;
+    line-height: 40px;
+    border-bottom: 2px solid #ddd;
+  }
+
+
+  /* header */
+  #logo {
+    width: 230px;
+    height: 76px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 75px;
+  }
+  
+  /* main */
+  #main-container {
+    padding-top: 120px;
+  }
+
+  .main-section {
+    width: 100%;
+    padding: 28px;
+  }
+
+/* footer */
+  footer {
+    padding: 30px;
+    font-size: 10px;
+    border-top: 7px solid #4aaaa5;
+    height: 40px;
+  }
+
+
 }
 
 
